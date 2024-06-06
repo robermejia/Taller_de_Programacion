@@ -7,7 +7,7 @@ public class Pregunta1_TecnoTrech extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
     }
 
-    // Clase Impresora
+    // CLASE IMPRESORA
     class Impresora {
         private String modelo;
         private double precio;
@@ -86,7 +86,7 @@ public class Pregunta1_TecnoTrech extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel2.setText("TECNOTRECH");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 40, -1, -1));
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 40, -1, -1));
 
         jLabel1.setText("SELECCIONE IMPRESORA:");
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 150, -1));
